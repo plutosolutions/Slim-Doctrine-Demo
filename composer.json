@@ -12,11 +12,18 @@
             "UMA\\Tests\\DoctrineDemo\\": "tests/"
         }
     },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/1ma/xhgui-collector"
+        }
+    ],
     "require": {
         "php": ">= 7.1",
         "ext-sqlite3": "*",
         "doctrine/orm": "^2.6",
         "fzaninotto/faker": "^1.7",
+        "perftools/xhgui-collector": "dev-backend-decoupling",
         "slim/slim": "^3.9"
     },
     "require-dev": {
